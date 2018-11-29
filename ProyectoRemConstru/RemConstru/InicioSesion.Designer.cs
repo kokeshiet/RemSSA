@@ -67,6 +67,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(150, 34);
+            this.txtUsuario.MaxLength = 50;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(100, 20);
             this.txtUsuario.TabIndex = 3;
@@ -74,7 +75,9 @@
             // txtContrasenia
             // 
             this.txtContrasenia.Location = new System.Drawing.Point(150, 98);
+            this.txtContrasenia.MaxLength = 50;
             this.txtContrasenia.Name = "txtContrasenia";
+            this.txtContrasenia.PasswordChar = '*';
             this.txtContrasenia.Size = new System.Drawing.Size(100, 20);
             this.txtContrasenia.TabIndex = 4;
             // 
