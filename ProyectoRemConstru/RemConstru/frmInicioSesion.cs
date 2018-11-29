@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RemConstru
 {
-    public partial class InicioSesion : Form
+    public partial class frmInicioSesion : Form
     {
-        public InicioSesion()
+        public frmInicioSesion()
         {
             InitializeComponent();
         }

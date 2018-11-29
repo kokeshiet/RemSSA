@@ -1,6 +1,6 @@
 ﻿namespace RemConstru
 {
-    partial class InicioSesion
+    partial class frmInicioSesion
     {
         /// <summary>
         /// Required designer variable.
