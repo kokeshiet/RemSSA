@@ -70,5 +70,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BCP\BCP.csproj">
+      <Project>{8716ac49-5d52-47ff-9026-ce9655bdb7f0}</Project>
+      <Name>BCP</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
