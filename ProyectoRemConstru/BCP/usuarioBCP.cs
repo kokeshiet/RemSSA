@@ -7,7 +7,7 @@ using System.Data;
 
 namespace BCP
 {
-    class usuarioBCP
+    public class usuarioBCP
     {
         public static DataTable loginUsuario(string user, string pass)
         {

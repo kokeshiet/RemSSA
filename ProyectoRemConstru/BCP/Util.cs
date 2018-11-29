@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BCP
 {
-    class Util
+    public class Util
     {
         public static string calculaDV(int rut)
         {
