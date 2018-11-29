@@ -23,14 +23,19 @@ namespace RemConstru
             dtsRetorno = BCP.usuarioBCP.loginUsuario(txtUsuario.Text, txtContrasenia.Text);
             if (dtsRetorno.Rows.Count > 0)
             {
-                frmPrincipal frmInicio = new frmPrincipal();
+                frmMenu frmInicio = new frmMenu();
                 frmInicio.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Login NOK");
+                MessageBox.Show("Usuario y/o Contraseña Incorrecta");
             }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace RemConstru
 {
-    public partial class frmPrincipal : Form
+    public partial class frmMenu : Form
     {
-        public frmPrincipal()
+        public frmMenu()
         {
             InitializeComponent();
+        }
+
+        private void trabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTrabajador trabajador = new frmTrabajador();
+            trabajador.MdiParent = this;
+            trabajador.Show();
         }
     }
 }
